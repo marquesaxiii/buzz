@@ -1,0 +1,31 @@
+@page "/Movie/Home"
+@using BuzzMobile.Shared.Models
+@inherits HomeBase
+
+
+<div class="vh-100" Style="@($"color:{Colors.Yellow.Accent4};")">
+    <MudTabs Elevation="1" Rounded="true">
+        <div class="col-4">
+        <MudTabPanel Text="Trending" />
+        <MudItem>
+            <div>
+                
+            </div>
+            <div>
+                @foreach (var movieModel in Model)
+                {
+                    <MudButton Class="row col-2 mx-2 my-2 rounded-circle" Variant="Variant.Outlined" Color="Color.Secondary">
+                        @movieModel.Movie
+                    </MudButton>
+                }
+            </div>
+        </MudItem>
+        </div>
+        <MudTabPanel Text="Latest"/>
+        <MudTabPanel Text="Monthly"/>
+       
+    </MudTabs>
+    
+    
+
+</div>

@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BuzzMobile
+build_property.RootNamespace = BuzzMobile
+build_property.ProjectDir = C:\Projects\Net Core\Buzz\Buzz\BuzzMobile\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\Net Core\Buzz\Buzz\BuzzMobile
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Pages/Movie/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVcRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Pages/Movie/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Pages/Movie/Result.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVcUmVzdWx0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Pages/Movie/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVcU2VhcmNoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Pages/Movie/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Shared/Layouts/HeaderLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dHNcSGVhZGVyTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Shared/Layouts/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dHNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Net Core/Buzz/Buzz/BuzzMobile/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ygsggs7d4h

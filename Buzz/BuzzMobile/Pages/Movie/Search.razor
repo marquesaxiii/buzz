@@ -1,0 +1,39 @@
+@page "/Movie/Search"
+@inherits SearchBase
+
+<div class="vh-100 px-5">
+    <div class="row py-4">
+    <div class="text-center pt-5">
+        <MudText Typo="Typo.h5">What are you interested in?</MudText>
+        <MudText Typo="Typo.subtitle1">Select some topics to personalize your experience.</MudText>
+    </div>
+    <div class="py-5">
+        <MudAutocomplete T="string" AdornmentColor="Color.Dark" Variant="Variant.Outlined" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium"/>
+    </div>
+        <br/>
+        <div class="row py-5">
+            <MudText Typo="Typo.h6">Popular Categories</MudText>
+            <div class="pt-3">
+                <MudButton Class="col-5 mx-1 px-2 my-4" Variant="Variant.Filled" EndIcon="@Icons.Filled.Add" Style="@($"color:{Colors.Yellow.Accent4}; background:{Colors.Grey.Darken4};")">Romance</MudButton>
+                <MudButton Class="col-4 mx-1" Variant="Variant.Filled" EndIcon="@Icons.Filled.Add" Style="@($"color:{Colors.Yellow.Accent4}; background:{Colors.Grey.Darken4};")">Action</MudButton>
+                <MudButton Class="col-4 mx-1" Variant="Variant.Filled" EndIcon="@Icons.Filled.Add" Style="@($"color:{Colors.Yellow.Accent4}; background:{Colors.Grey.Darken4};")">Comedy</MudButton>
+                <MudButton Class="col-7 mx-1" Variant="Variant.Filled" EndIcon="@Icons.Filled.Add" Style="@($"color:{Colors.Yellow.Accent4}; background:{Colors.Grey.Darken4};")">Science Fiction</MudButton>
+            </div>
+        </div>
+        <br/>
+        <div class="pb-5 pt-2">
+            <MudText Typo="Typo.h6">Popular Actors</MudText>
+            <div>
+                @foreach (var movieModel in Model)
+                {
+                    <MudButton Class="row col-2 mx-2 my-2 rounded-circle" Variant="Variant.Outlined" Color="Color.Secondary">
+                        <img src="@movieModel.Image" alt="">
+                    </MudButton>
+                }
+            </div>
+        </div>
+        <div class="py-5 d-block mx-auto text-center">
+            <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.Shades.Black}; background:{Colors.Yellow.Accent4};")">Search Movie</MudButton>
+        </div>
+    </div>
+</div>

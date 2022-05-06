@@ -1,0 +1,21 @@
+@page "/"
+@using Bogus.Hollywood.DataSets
+@inherits IndexBase
+
+<div @*style="background-image: "*@>
+
+    <div class="vh-100 index" style="@($"color:{Colors.Yellow.Accent4};")">
+    <div>
+        <MudText  Typo="Typo.h3">Welcome!</MudText>
+    </div>
+    <div class="py-5">
+        <MudText Align="Align.Justify" Class="mx-5 px-5 d-block" Typo="Typo.subtitle1">Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </MudText>
+    </div>
+    <div style="margin-top: 50%">
+        <MudButton Class="w-75" Variant="Variant.Filled" Style="@($"color:{Colors.Shades.Black}; background:{Colors.Yellow.Accent4};")">Proceed</MudButton>
+    </div>
+</div>
+</div>
